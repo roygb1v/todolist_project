@@ -1,3 +1,4 @@
+# Ruby 
 # This class represents a todo item and its associated
 # data: name and description. There's also a "done"
 # flag to show whether this todo item is done.
@@ -119,6 +120,10 @@ class TodoList
       list.add(todo) if yield(todo)
     end
     list
+  end
+  
+  def tester
+    puts "This is a test"
   end
 
   # returns first Todo by title, or nil if no match
